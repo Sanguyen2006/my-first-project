@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="vi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Quản trị | May Store
+  </title>
+  <link href="../assets/css/style.css" rel="stylesheet"/>
+  <link href="../assets/css/admin.css" rel="stylesheet"/>
+ </head>
+ <body class="admin-body">
+  <aside class="admin-sidebar">
+   <a class="brand" href="../index.html">
+    <b class="brand-mark">
+     M
+    </b>
+    <span>
+     MAY
+     <span class="light">
+      STORE
+     </span>
+     <small>
+      TRUNG TÂM QUẢN TRỊ
+     </small>
+    </span>
+   </a>
+   <p class="side-label">
+    QUẢN LÝ CỬA HÀNG
+   </p>
+   <a class="side-link active" href="dashboard.html">
+    ▦　 Bảng điều khiển
+   </a>
+   <a class="side-link" href="products.html">
+    ▣　 Sản phẩm
+   </a>
+   <a class="side-link" href="customers.html">
+    ♙　 Khách hàng
+   </a>
+   <a class="side-link" href="orders.html">
+    ▤　 Đơn hàng
+   </a>
+   <a class="side-link" href="inventory.html">
+    ▥　 Kho hàng
+   </a>
+   <a class="side-link" href="promotions.html">
+    ％　 Khuyến mãi
+   </a>
+   <a class="side-link" href="categories.html">
+    ☷　 Danh mục
+   </a>
+   <div class="sidebar-bottom">
+    <a href="../index.html">
+     ← Xem cửa hàng
+    </a>
+    <button id="admin-logout">
+     Đăng xuất ↗
+    </button>
+   </div>
+  </aside>
+  <main class="admin-main">
+   <header class="admin-top">
+    <div>
+     <span class="breadcrumb">
+      MAY STORE / QUẢN TRỊ
+     </span>
+     <h1>
+      Bảng điều khiển
+     </h1>
+    </div>
+    <div class="admin-user">
+     <span class="admin-avatar">
+      Q
+     </span>
+     <span>
+      <b>
+       Quản trị viên
+      </b>
+      <small>
+       Quản trị hệ thống
+      </small>
+     </span>
+    </div>
+   </header>
+   <section class="welcome-banner">
+    <div>
+     <p class="eyebrow">
+      TỔNG QUAN CỬA HÀNG
+     </p>
+     <h2>
+      Chào mừng trở lại.
+     </h2>
+     <p>
+      Tình hình tổng quan của May Store trong bộ dữ liệu mẫu.
+     </p>
+    </div>
+    <span class="welcome-mark">
+     M.
+    </span>
+   </section>
+   <section class="metric-grid">
+    <article class="metric">
+     <span>
+      TỔNG SẢN PHẨM
+     </span>
+     <b>
+      20
+     </b>
+     <small>
+      Đang có trong danh mục
+     </small>
+     <i>
+      ▣
+     </i>
+    </article>
+    <article class="metric">
+     <span>
+      KHÁCH HÀNG
+     </span>
+     <b>
+      10
+     </b>
+     <small>
+      Tài khoản mẫu
+     </small>
+     <i>
+      ♙
+     </i>
+    </article>
+    <article class="metric">
+     <span>
+      ĐƠN HÀNG
+     </span>
+     <b>
+      0
+     </b>
+     <small>
+      Chưa phát sinh đơn
+     </small>
+     <i>
+      ▤
+     </i>
+    </article>
+    <article class="metric">
+     <span>
+      GIÁ TRỊ ĐƠN
+     </span>
+     <b>
+      0 ₫
+     </b>
+     <small>
+      Doanh thu demo
+     </small>
+     <i>
+      ₫
+     </i>
+    </article>
+   </section>
+   <section class="admin-content-grid">
+    <article class="admin-panel">
+     <div class="panel-head">
+      <div>
+       <h2>
+        Sản phẩm gần đây
+       </h2>
+       <p>
+        Danh sách sản phẩm trong hệ thống
+       </p>
+      </div>
+      <a href="products.html">
+       Quản lý sản phẩm →
+      </a>
+     </div>
+     <div class="table-wrap">
+      <table>
+       <thead>
+        <tr>
+         <th>
+          MÃ SP
+         </th>
+         <th>
+          TÊN SẢN PHẨM
+         </th>
+         <th>
+          GIÁ BÁN
+         </th>
+         <th>
+          TỒN KHO
+         </th>
+         <th>
+          TRẠNG THÁI
+         </th>
+        </tr>
+       </thead>
+       <tbody id="dashboard-products">
+       </tbody>
+      </table>
+     </div>
+    </article>
+    <article class="admin-panel quick-panel">
+     <div class="panel-head">
+      <div>
+       <h2>
+        Thao tác nhanh
+       </h2>
+       <p>
+        Các công việc thường dùng
+       </p>
+      </div>
+     </div>
+     <a class="quick-action" href="products.html">
+      <span>
+       ＋
+      </span>
+      <div>
+       <b>
+        Thêm sản phẩm
+       </b>
+       <small>
+        Tạo mặt hàng mới
+       </small>
+      </div>
+      <strong>
+       →
+      </strong>
+     </a>
+     <a class="quick-action" href="customers.html">
+      <span>
+       ♙
+      </span>
+      <div>
+       <b>
+        Quản lý khách hàng
+       </b>
+       <small>
+        Xem tài khoản
+       </small>
+      </div>
+      <strong>
+       →
+      </strong>
+     </a>
+     <a class="quick-action" href="orders.html">
+      <span>
+       ▤
+      </span>
+      <div>
+       <b>
+        Kiểm tra đơn hàng
+       </b>
+       <small>
+        Theo dõi tình trạng đơn
+       </small>
+      </div>
+      <strong>
+       →
+      </strong>
+     </a>
+    </article>
+   </section>
+  </main>
+  <script src="../assets/js/admin.js">
+  </script>
+ </body>
+</html>
+

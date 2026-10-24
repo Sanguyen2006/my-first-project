@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Đăng ký | May Store
+  </title>
+  <link href="assets/css/style.css" rel="stylesheet"/>
+  <link href="assets/css/pages.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="simple-head">
+   <a class="brand" href="index.html">
+    <b class="brand-mark">
+     M
+    </b>
+    <span>
+     MAY
+     <span class="light">
+      STORE
+     </span>
+     <small>
+      CÔNG NGHỆ CHO CUỘC SỐNG
+     </small>
+    </span>
+   </a>
+   <a href="index.html">
+    ← Quay về cửa hàng
+   </a>
+  </header>
+  <main class="auth-wrap">
+   <section class="auth-side">
+    <p class="eyebrow">
+     BẮT ĐẦU CÙNG MAY STORE
+    </p>
+    <h1>
+     Tài khoản của bạn.
+     <br/>
+     Trải nghiệm của bạn.
+    </h1>
+    <p>
+     Tạo tài khoản để mua sắm thuận tiện và theo dõi đơn hàng ở một nơi.
+    </p>
+    <div class="auth-note">
+     ĐĂNG KÝ MIỄN PHÍ · DỄ DÀNG
+    </div>
+   </section>
+   <form class="form-panel" id="register-form">
+    <p class="eyebrow">
+     TÀI KHOẢN MỚI
+    </p>
+    <h2>
+     Tạo tài khoản
+    </h2>
+    <p class="form-intro">
+     Điền thông tin để tham gia May Store.
+    </p>
+    <div class="form-two">
+     <label>
+      Họ và tên
+      <input name="ho_ten" placeholder="Nguyễn Văn A" required=""/>
+     </label>
+     <label>
+      Số điện thoại
+      <input name="so_dien_thoai" placeholder="09xxxxxxxx"/>
+     </label>
+    </div>
+    <label>
+     Email
+     <input name="email" placeholder="ban@example.com" required="" type="email"/>
+    </label>
+    <label>
+     Tên đăng nhập
+     <input minlength="4" name="ten_dang_nhap" placeholder="Tên đăng nhập" required=""/>
+    </label>
+    <div class="form-two">
+     <label>
+      Mật khẩu
+      <input minlength="8" name="mat_khau" placeholder="Ít nhất 8 ký tự" required="" type="password"/>
+     </label>
+     <label>
+      Nhập lại mật khẩu
+      <input minlength="8" name="xac_nhan" placeholder="Nhập lại mật khẩu" required="" type="password"/>
+     </label>
+    </div>
+    <button class="btn dark full">
+     TẠO TÀI KHOẢN　→
+    </button>
+    <p class="form-foot">
+     Đã có tài khoản?
+     <a href="login.html">
+      Đăng nhập
+     </a>
+    </p>
+    <p class="form-message" id="form-message">
+    </p>
+   </form>
+  </main>
+  <script src="assets/js/pages.js">
+  </script>
+ </body>
+</html>
+

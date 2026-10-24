@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Quản lý kho hàng | May Store
+  </title>
+  <link href="../assets/css/style.css" rel="stylesheet"/>
+  <link href="../assets/css/admin.css" rel="stylesheet"/>
+ </head>
+ <body class="admin-body">
+  <aside class="admin-sidebar">
+   <a class="brand" href="../index.html">
+    <b class="brand-mark">
+     M
+    </b>
+    <span>
+     MAY
+     <span class="light">
+      STORE
+     </span>
+     <small>
+      TRUNG TÂM QUẢN TRỊ
+     </small>
+    </span>
+   </a>
+   <p class="side-label">
+    QUẢN LÝ CỬA HÀNG
+   </p>
+   <a class="side-link" href="dashboard.html">
+    ▦　 Bảng điều khiển
+   </a>
+   <a class="side-link" href="products.html">
+    ▣　 Sản phẩm
+   </a>
+   <a class="side-link" href="customers.html">
+    ♙　 Khách hàng
+   </a>
+   <a class="side-link" href="orders.html">
+    ▤　 Đơn hàng
+   </a>
+   <a class="side-link" href="inventory.html">
+    ▥　 Kho hàng
+   </a>
+   <a class="side-link" href="promotions.html">
+    ％　 Khuyến mãi
+   </a>
+   <a class="side-link" href="categories.html">
+    ☷　 Danh mục
+   </a>
+   <div class="sidebar-bottom">
+    <a href="../index.html">
+     ← Xem cửa hàng
+    </a>
+    <button id="admin-logout">
+     Đăng xuất ↗
+    </button>
+   </div>
+  </aside>
+  <main class="admin-main">
+   <header class="admin-top">
+    <div>
+     <span class="breadcrumb">
+      MAY STORE / QUẢN LÝ
+     </span>
+     <h1>
+      Quản lý kho hàng
+     </h1>
+    </div>
+    <div class="admin-user">
+     <span class="admin-avatar">
+      Q
+     </span>
+     <span>
+      <b>
+       Quản trị viên
+      </b>
+      <small>
+       Quản trị hệ thống
+      </small>
+     </span>
+    </div>
+   </header>
+   <section class="admin-panel standalone-panel">
+    <div class="panel-head">
+     <div>
+      <h2>
+       Quản lý kho hàng
+      </h2>
+      <p>
+       Theo dõi số lượng tồn kho và cảnh báo sắp hết hàng.
+      </p>
+     </div>
+    </div>
+    <div class="toolbar">
+     <input id="admin-generic-search" placeholder="Nhập từ khóa tìm kiếm..."/>
+     <button class="admin-secondary" id="generic-search-btn">
+      Tìm kiếm
+     </button>
+    </div>
+    <div id="admin-generic-content">
+    </div>
+   </section>
+  </main>
+  <script src="../assets/js/admin.js">
+  </script>
+ </body>
+</html>
+
